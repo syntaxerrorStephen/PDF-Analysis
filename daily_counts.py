@@ -42,7 +42,7 @@ def label_figure(day, mode, filename):
 if __name__ == '__main__':
 	
 	states = ["Massachusetts", "New Hampshire", "Rhode Island"]
-	plot_daily_count_states(states, day="10/10/20")
+	plot_daily_count_states(states, day="10/12/20")
 	plot_daily_count_states(states, mode=Mode.DEATHS)
 
 	plot_daily_count_countries(["India", "US", "Brazil"])

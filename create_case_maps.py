@@ -67,7 +67,7 @@ def create_global_figure(df, filename, day):
 if __name__ == '__main__':
 	yesterday = (datetime.today() - timedelta(days=1)).strftime("%m/%d/%y")
 	# Uncomment below line for testing
-	yesterday = "10/10/20"
+	yesterday = "10/12/20"
 
 	plot_usa_case_map(day=yesterday) # saves as usa_chart.png by default
 	plot_global_case_map(day=yesterday) # saves as global_chart.png by default
